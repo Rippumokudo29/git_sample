@@ -1,13 +1,13 @@
-#include "calc.h"
+#include "calc.cpp"
 #include <stdio.h>
 
 void Ccalc::get(int num)
 {
     int x,y;
     printf("a=");
-    scanf("%d",&x);
+    fscanf("%d",&x);
     printf("b=");
-    scanf("%d",&y);
+    fscanf("%d",&y);
 
     getchar();
 
@@ -17,6 +17,6 @@ void Ccalc::get(int num)
     printf("a / b = %d", x / y);
 
     getchar();
-    
+
 }
 
