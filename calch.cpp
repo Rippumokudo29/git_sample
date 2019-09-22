@@ -1,10 +1,14 @@
 #define _CALC_H_
+#include <stdio.h>
+
+using namespace std;
 
 class Ccalc
 {
     public:
-     void get(int num);
-     int get();
+     void main(int num);
+     int main();
+
     private:
      int x;
      int y;
