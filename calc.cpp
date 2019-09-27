@@ -1,32 +1,34 @@
 #include <stdio.h>
 
+int main (void)
+{
 
-int main(void){
-
-    double x,y;
+    double x;
+    double y;
+    double sum;
+    double dif;
+    double mul;
+    double div;
 
     printf("a=");
-    scanf("%lf",&x);
-    printf("b=");
-    scanf("%lf",&y);
+    scanf("%lf", &x);
 
-    getchar();
-    
-      double sum, dif, mul, div;
+    printf("b=");
+    scanf("%lf", &y);
+
+    printf("%f \n", x);
 
     sum = x + y;
     dif = x - y;
     mul = x * y;
     div = x / y;
 
-    printf("a + b = %f\n", sum);
-    printf("a - b = %f\n", dif);
-    printf("a * b = %f\n", mul);
-    printf("a / b = %f\n", div);
+    printf("\n");
+    printf("x + y = %f \n", sum);
+    printf("x - y = %f \n", dif);
+    printf("x * y = %f \n", mul);
+    printf("x / y = %f \n", div);
 
-    getchar();
-    
     return 0;
-
 }
 
